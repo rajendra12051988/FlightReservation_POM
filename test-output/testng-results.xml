@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="1" ignored="0" total="7" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33511" started-at="2019-01-19T04:11:24Z" finished-at="2019-01-19T04:11:58Z">
+  <suite name="Suite" duration-ms="53030" started-at="2019-01-19T05:07:35Z" finished-at="2019-01-19T05:08:28Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33511" started-at="2019-01-19T04:11:24Z" finished-at="2019-01-19T04:11:58Z">
+    <test name="Test" duration-ms="53030" started-at="2019-01-19T05:07:35Z" finished-at="2019-01-19T05:08:28Z">
       <class name="testcases.ExecuteTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="setUp" is-config="true" duration-ms="9873" started-at="2019-01-19T04:11:24Z" finished-at="2019-01-19T04:11:34Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="setUp" is-config="true" duration-ms="27495" started-at="2019-01-19T05:07:35Z" finished-at="2019-01-19T05:08:02Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="5" started-at="2019-01-19T04:11:34Z" finished-at="2019-01-19T04:11:34Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="6" started-at="2019-01-19T05:08:02Z" finished-at="2019-01-19T05:08:02Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestMethodName -->
-        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="launchApplication" duration-ms="3434" started-at="2019-01-19T04:11:34Z" finished-at="2019-01-19T04:11:38Z">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="launchApplication" duration-ms="5533" started-at="2019-01-19T05:08:02Z" finished-at="2019-01-19T05:08:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="605" started-at="2019-01-19T04:11:38Z" finished-at="2019-01-19T04:11:38Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="1148" started-at="2019-01-19T05:08:08Z" finished-at="2019-01-19T05:08:09Z">
           <params>
             <param index="0">
               <value>
@@ -44,18 +44,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T04:11:38Z" finished-at="2019-01-19T04:11:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testcases.ExecuteTest.testFail()]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTestMethodName -->
-        <test-method status="FAIL" signature="testFail()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="testFail" duration-ms="2" started-at="2019-01-19T04:11:38Z" finished-at="2019-01-19T04:11:38Z">
+        <test-method status="FAIL" signature="testFail()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="testFail" duration-ms="1" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -97,7 +86,18 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFail -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="468" started-at="2019-01-19T04:11:38Z" finished-at="2019-01-19T04:11:39Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.ExecuteTest.testFail()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestMethodName -->
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="401" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
           <params>
             <param index="0">
               <value>
@@ -108,7 +108,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T04:11:39Z" finished-at="2019-01-19T04:11:39Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
           <params>
             <param index="0">
               <value>
@@ -119,7 +119,18 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestMethodName -->
-        <test-method status="SKIP" signature="testSkip()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="testSkip" duration-ms="1" started-at="2019-01-19T04:11:39Z" finished-at="2019-01-19T04:11:39Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="1" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSkip status=SKIP method=ExecuteTest.testSkip()[pri:0, instance:testcases.ExecuteTest@5ba23b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method status="SKIP" signature="testSkip()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="testSkip" duration-ms="0" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[This test got skipped as it was not ready to be executed]]>
@@ -157,18 +168,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSkip -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="1" started-at="2019-01-19T04:11:39Z" finished-at="2019-01-19T04:11:39Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSkip status=SKIP method=ExecuteTest.testSkip()[pri:0, instance:testcases.ExecuteTest@5ba23b66] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T04:11:39Z" finished-at="2019-01-19T04:11:39Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:09Z">
           <params>
             <param index="0">
               <value>
@@ -179,11 +179,11 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestMethodName -->
-        <test-method status="PASS" signature="login()[pri:1, instance:testcases.ExecuteTest@5ba23b66]" name="login" duration-ms="6583" started-at="2019-01-19T04:11:39Z" finished-at="2019-01-19T04:11:45Z">
+        <test-method status="PASS" signature="login()[pri:1, instance:testcases.ExecuteTest@5ba23b66]" name="login" duration-ms="7445" started-at="2019-01-19T05:08:09Z" finished-at="2019-01-19T05:08:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="394" started-at="2019-01-19T04:11:45Z" finished-at="2019-01-19T04:11:46Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="353" started-at="2019-01-19T05:08:17Z" finished-at="2019-01-19T05:08:17Z">
           <params>
             <param index="0">
               <value>
@@ -194,7 +194,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="2" started-at="2019-01-19T04:11:46Z" finished-at="2019-01-19T04:11:46Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T05:08:17Z" finished-at="2019-01-19T05:08:17Z">
           <params>
             <param index="0">
               <value>
@@ -205,11 +205,11 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestMethodName -->
-        <test-method status="PASS" signature="enterFlightDetails()[pri:2, instance:testcases.ExecuteTest@5ba23b66]" name="enterFlightDetails" duration-ms="3126" started-at="2019-01-19T04:11:46Z" finished-at="2019-01-19T04:11:49Z">
+        <test-method status="PASS" signature="enterFlightDetails()[pri:2, instance:testcases.ExecuteTest@5ba23b66]" name="enterFlightDetails" duration-ms="2615" started-at="2019-01-19T05:08:17Z" finished-at="2019-01-19T05:08:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterFlightDetails -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="375" started-at="2019-01-19T04:11:49Z" finished-at="2019-01-19T04:11:49Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="366" started-at="2019-01-19T05:08:20Z" finished-at="2019-01-19T05:08:20Z">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T04:11:49Z" finished-at="2019-01-19T04:11:49Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-19T05:08:20Z" finished-at="2019-01-19T05:08:20Z">
           <params>
             <param index="0">
               <value>
@@ -231,11 +231,11 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestMethodName -->
-        <test-method status="PASS" signature="reserveAFlight()[pri:3, instance:testcases.ExecuteTest@5ba23b66]" name="reserveAFlight" duration-ms="2184" started-at="2019-01-19T04:11:49Z" finished-at="2019-01-19T04:11:51Z">
+        <test-method status="PASS" signature="reserveAFlight()[pri:3, instance:testcases.ExecuteTest@5ba23b66]" name="reserveAFlight" duration-ms="1820" started-at="2019-01-19T05:08:20Z" finished-at="2019-01-19T05:08:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- reserveAFlight -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="348" started-at="2019-01-19T04:11:51Z" finished-at="2019-01-19T04:11:52Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="345" started-at="2019-01-19T05:08:22Z" finished-at="2019-01-19T05:08:22Z">
           <params>
             <param index="0">
               <value>
@@ -246,7 +246,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="1" started-at="2019-01-19T04:11:52Z" finished-at="2019-01-19T04:11:52Z">
+        <test-method status="PASS" signature="getTestMethodName(java.lang.reflect.Method)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="getTestMethodName" is-config="true" duration-ms="0" started-at="2019-01-19T05:08:22Z" finished-at="2019-01-19T05:08:22Z">
           <params>
             <param index="0">
               <value>
@@ -257,11 +257,11 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTestMethodName -->
-        <test-method status="PASS" signature="enterPersonalDetails()[pri:4, instance:testcases.ExecuteTest@5ba23b66]" name="enterPersonalDetails" duration-ms="2588" started-at="2019-01-19T04:11:52Z" finished-at="2019-01-19T04:11:54Z">
+        <test-method status="PASS" signature="enterPersonalDetails()[pri:4, instance:testcases.ExecuteTest@5ba23b66]" name="enterPersonalDetails" duration-ms="3319" started-at="2019-01-19T05:08:22Z" finished-at="2019-01-19T05:08:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterPersonalDetails -->
-        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="363" started-at="2019-01-19T04:11:54Z" finished-at="2019-01-19T04:11:55Z">
+        <test-method status="PASS" signature="generateReport(org.testng.ITestResult)[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="generateReport" is-config="true" duration-ms="313" started-at="2019-01-19T05:08:26Z" finished-at="2019-01-19T05:08:26Z">
           <params>
             <param index="0">
               <value>
@@ -272,7 +272,7 @@ at org.testng.TestNG.main(TestNG.java:1323)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="closeDriver" is-config="true" duration-ms="3119" started-at="2019-01-19T04:11:55Z" finished-at="2019-01-19T04:11:58Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.ExecuteTest@5ba23b66]" name="closeDriver" is-config="true" duration-ms="1665" started-at="2019-01-19T05:08:26Z" finished-at="2019-01-19T05:08:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->

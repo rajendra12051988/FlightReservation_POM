@@ -14,7 +14,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.ITestResult;
-import org.testng.SkipException;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
@@ -203,15 +202,7 @@ public class ExecuteTest {
 		
 	}
 	
-	@Test
-	public void testFail(){
-		Assert.assertFalse(true);
-	}
 	
-	@Test
-	public void testSkip(){
-		throw new SkipException("This test got skipped as it was not ready to be executed");
-	}
 	@AfterMethod
 	public void generateReport(ITestResult result) throws IOException{
 		if(result.getStatus() == ITestResult.SUCCESS){
